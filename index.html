@@ -10,6 +10,39 @@
 </head>
 <body>
 
+  <!-- Acquisto biglietto -->
+  <form>
+    <h2>Acquista il tuo biglietto qui</h1>
+    <div class="mb-3">
+      <label for="km" class="form-label">Kmn da percorrere</label>
+      <input type="number" class="form-control" id="km">
+    </div>
+    
+    <div class="mb-3">
+      <label for="age" class="form-label">Età del passeggero</label>
+      <input type="number" class="form-control" id="age">
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Fai il biglietto</button>
+  </form>
+
+
+  <!-- Biglietto -->
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="/img/logotreno.png" class="img-fluid rounded-start" alt="Img Treno">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text"> Dettagli sconto:<br></p>
+          <p class="card-text"><small class="text-body-secondary">Prezzo: </small></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="/js/script.js"></script>
 </body>
