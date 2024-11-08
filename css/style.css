@@ -27,6 +27,10 @@ form {
     padding: 30px;
 }
 
+.d-none {
+    display: none;
+}
+
 .btn {
     margin-bottom: 15px;
 }
